@@ -1,13 +1,6 @@
 <html>
 <head>
 <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-</head>
-
-<body>
-
-<div id="app">
-  {{ message }}
-</div>
 
 <script language='javascript'>
 var app = new Vue({
@@ -17,6 +10,13 @@ var app = new Vue({
   }
 })
 </script>
+</head>
+
+<body>
+
+<div id="app">
+  {{ message }}
+</div>
 
 </body>
 </html>
