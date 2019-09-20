@@ -15,6 +15,11 @@
   </span>
 </div>
 
+<div id="app-3">
+  <p v-if="seen">이제 나를 볼 수 있어요</p>
+</div>
+
+<!-- script area start -->
 <script language='javascript'>
 var app = new Vue({
   el: '#app',
@@ -29,6 +34,14 @@ var app2 = new Vue({
     message: '이 페이지는 ' + new Date() + ' 에 로드 되었습니다'
   }
 })
+
+var app3 = new Vue({
+  el: '#app-3',
+  data: {
+    seen: true
+  }
+})
+
 </script>
 
 </body>
